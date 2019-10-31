@@ -1,0 +1,178 @@
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+	display: table;
+    font-weight: 100;
+	font-family: 'PT Sans', sans-serif !important;
+}
+header{
+	font-family: 'Lato', sans-serif;
+	position:absolute;
+	height:45px;
+	line-height:45px;
+	width:100%;
+	vertical-align:middle;
+    color:white;
+}
+main{
+	width:100%;
+	background-color:black;
+	padding-bottom:20px;
+
+}
+footer{
+	z-index:1;
+	background-image:url('../img/bg-bot.jpg');
+	color:white;
+}
+.main-content{
+	max-width:1150px;
+	padding-left:100px;	
+	padding-right:100px;
+	background-color:white;
+	-webkit-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.75);
+	padding-top:20px;
+}
+.main-content h1{
+	color:#337cbb;
+}
+.mini-title{
+    font-size: 25px;
+    color:white;
+}
+.header{
+	max-width:1150px;
+    background-image:url('../img/bg-bot.jpg');
+	background-color:dimgrey;
+	color:white;	
+}
+
+.the-caption{
+	font-size:16px;
+	color:white;
+}
+ul.header-list{
+	float:right;
+}
+ul.header-list li{
+	display:inline;
+	margin-right: 15px;
+	color:#337cbf;
+}
+.photo-col{
+}
+.photo-col img{
+	width:100%;
+	height:100%;
+}
+.row.one-row{
+	margin-left:0;
+	margin-right:0;
+	margin-top:30px;
+}
+.col-desc{
+	padding-left:20px;
+}
+.desc{
+	font-size: 16px;
+}
+.wrapper{
+	max-width:1200px;
+	padding-top:25px;
+}
+.footer-logo{
+	height:95px;
+	width:120px;
+}
+.footer-logo img{
+	width:100%;
+	height:100%;
+}
+.logo-name{
+	margin-top:10px;
+	color:white;
+}
+.socmed-link ul{
+	padding-left:0px;
+}
+.socmed-link ul li{
+	display:inline;
+}
+.socmed-link img{
+	width:35px;
+	height:35px;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.inline{
+	display:inline;
+}
+.block{
+	display:block;
+}
+.sosmed ul li{
+	text-decoration:none;
+	display:inline !important;
+}
+.sosmed img{
+	width:40px;
+	height:40px;
+}
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
